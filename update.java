@@ -18,6 +18,7 @@ public class update1
             String q1 = "UPDATE userid set pwd = '" + newPwd +  
                     "' WHERE id = '" +id+ "' AND pwd = '" + pwd + "'"; 
             int x = stmt.executeUpdate(q1); 
+            System.out.println("Our system is ready for update");                                              
               
             if (x > 0)             
                 System.out.println("Password Successfully Updated");             
