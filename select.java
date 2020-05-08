@@ -11,7 +11,8 @@ public class select
             Class.forName("oracle.jdbc.driver.OracleDriver"); 
             Connection con = DriverManager.getConnection(" 
                     jdbc:oracle:thin:@localhost:1521:orcl", "login1", "pwd1"); 
-            Statement stmt = con.createStatement(); 
+            Statement stmt = con.createStatement();
+           System.out.println("Inorder to select please insert the details");
               
             // SELECT query 
             String q1 = "select * from userid WHERE id = '" + id +  
