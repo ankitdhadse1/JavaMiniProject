@@ -21,7 +21,8 @@ public class insert1
                                   "', '" +fullname+ "', '" +email+ "')"; 
             int x = stmt.executeUpdate(q1); 
             if (x > 0)             
-                System.out.println("Successfully Inserted");             
+                System.out.println("In Process");
+                 System.out.println("Successfully Inserted");                                          
             else            
                 System.out.println("Insert Failed"); 
               
