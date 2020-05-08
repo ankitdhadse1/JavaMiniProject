@@ -9,13 +9,13 @@ public class Criminaldatabase{
 		Sysyem.out.println(off1.toString());
 	  
 		
-	    //ask no of new officers to add
+	    //ask no of new officers to add to the system info
 	    Scanner in = new Scanner(System.in);
         System.out.print("enter no of new candidates");
         int numOfOfficers= in.nextInt();
 		Officer[] officers = new Officer[numOfOfficers];
 		
-	    //create n new candidates
+	    //create n new candidates to be added
 		for( int n = 0; n < numOfOfficers; n++) {
 			officers[n] = new Officer();
 			officers[n].bonuses();
