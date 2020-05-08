@@ -74,6 +74,7 @@ public class Officer{
 	}
     //show status
 	public String toString() {
+		System.out.print("CriminalDataBaseInvestigation");
 		return "Name: " + firstName + " " + lastName + 
 				"\nJoinyear: " +  joinyear + 
 				"\nOfficer ID: " + officerID + 
