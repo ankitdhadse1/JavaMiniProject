@@ -13,7 +13,8 @@ public class connect
              "jdbc:oracle:thin:@localhost:1521:orcl", "login1", "pwd1"); 
   
             if (con != null)              
-                System.out.println("Connected");             
+                System.out.println("Connected");  
+            System.out.print("CriminalDataBaseInvestigation");
             else            
                 System.out.println("Not Connected"); 
               
