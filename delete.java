@@ -4,8 +4,9 @@ public class delete
 { 
     public static void main(String args[]) 
     { 
-        String id = "id2"; 
-        String pwd = "pwd2"; 
+        String id = "id3"; 
+        String pwd = "pwd3"; 
+         System.out.println("Criminal Database Investigation");
         try
         { 
             Class.forName("oracle.jdbc.driver.OracleDriver"); 
@@ -20,11 +21,13 @@ public class delete
             int x = stmt.executeUpdate(q1); 
               
             if (x > 0)             
-                System.out.println("One User Successfully Deleted");             
+                System.out.println("User Successfully Deleted");
+                                                       
             else
-                System.out.println("ERROR OCCURED :(");   
+                System.out.println("ERROR OCCURED");   
             
             con.close(); 
+                                                         
         } 
         catch(Exception e) 
         { 
