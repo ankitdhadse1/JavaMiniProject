@@ -7,6 +7,7 @@ public class Criminaldatabase{
 		offl.bonuses();
 		stul.getsalary();
 		Sysyem.out.println(off1.toString());
+		System.out.print("CriminalDataBaseInvestigation");
 	  
 		
 	    //ask no of new officers to add
